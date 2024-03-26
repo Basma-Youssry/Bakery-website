@@ -1,0 +1,297 @@
+/* Global Property */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya';
+}
+.about, .location, .products, .contact{
+    padding: 90px 60px;
+}
+
+/* Start landing page */
+.landingPage{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 25px 45px 0px;
+    height: calc(100vh - 25px);
+    text-align: center;
+}
+
+.header .logo,ul,.li-header{
+    display: inline-block;
+}
+.header .logo{
+    width: 15%;
+    vertical-align: middle;
+}
+.header a img{
+    width: 100%;
+}
+ul{
+    list-style: none;   
+}
+.header ul{
+    width: 80%;
+    text-align: right;
+}
+.header ul li{
+    font-size: 18px;
+    margin-right: 20px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #E0DCD2;
+}
+.landingPage .main{
+    color: #FFFFFF;
+    margin-top: 170px;
+}
+.landingPage .main p, .main button{
+    font-family: 'Alegreya Sans';
+}
+.landingPage .main p,h1,button{
+    margin-bottom: 30px;
+}
+.landingPage .main p{
+    font-size: 24px;
+    border-style: none;
+    color: #ffffff;
+    letter-spacing: normal;
+}
+.landingPage .main h1{
+    font-size: 76px;
+    font-weight: 400;
+}
+.landingPage .main button{
+    padding: 15px 28px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.landingPage .main .brown-back{
+    background-color: #8E7754;
+    border-style: none;
+    margin-right: 10px;
+}
+.landingPage .main .non-back{
+    background-color: inherit;
+    border-color: #FFFFFF;
+}
+/* End landing page */
+
+/* Start about section */
+
+.about div{
+    display: inline-block;
+}
+.about .bakery-image{
+    width: 45%;
+}
+.about .bakery-image img{
+    width: 100%;
+}
+.info{
+    width: 50%;
+    vertical-align: 50px;
+}
+.about .info{
+    margin-left: 50px;
+}
+h2,.heading h3{
+    font-size: 32px;
+    color: #303030;
+    font-weight: 400;
+}
+.about p{
+    margin-bottom: 45px;
+}
+.about ul li span{
+    vertical-align: 15px;
+    margin-left: 10px;
+    color: #686868; 
+}
+p, span{
+    line-height: 30px;
+    color: #686868; 
+    font-family: 'Alegreya Sans';  
+}
+.about ul li{
+    align-items: center;
+}
+.about ul li img{
+    width: 40px;
+    border: #E0E0E0 solid 1px;
+    border-radius: 50% 50%;
+}
+
+/* End about section */
+
+/* Start location section */
+.location{
+    background-color: #F8F8F8;
+}
+.location div{
+    display: inline-block;
+}
+.location .info{
+    margin-right: 50px;
+}
+h2{
+    margin-bottom: 40px;
+}
+.location .cheifs-image{
+    width: 45%;
+}
+.location .cheifs-image img{
+    width: 100%;
+}
+/* End location section */
+
+/* Start products section */
+.products{
+    text-align: center;
+}
+.products .heading p{
+    margin: 20px 0px 50px;
+}
+.products .container .product{
+    float: left;
+    width: 33%;
+}
+.products .container .product h4{
+    font-size: 22px;
+    color: #303030;
+    font-weight: 400;
+}
+.clr{
+    clear: left;
+}
+.products .container .product img{
+    width: 90%;
+}
+/* End products section */
+
+/* Start contact section */
+.contact{
+    background-color: #F8F8F8;
+}
+.contact .contact-info{
+    width: 45%;
+}
+.contact .map{
+    width: 45%;
+    margin-left: 80px;
+}
+.contact .map iframe{
+    width: 100%;
+    height: 500px;
+}
+.contact .contact-info, .map{
+    float: left;
+}
+.contact .contact-info p{
+    margin-bottom: 20px;
+}
+.contact-info ul li{
+    margin-bottom: 10px;
+}
+.contact-info ul li span{
+    margin-left: 20px;
+    vertical-align: 15px;
+}
+.contact-info ul li img{
+    width: 40px;
+    background-color: #8E7754;
+    border-radius: 50%;
+}
+.contact-info .map{
+    width: 50%;
+}
+/* End contact section */
+
+/* Start more details section */
+.more-details{
+    padding: 60px;
+    background-color: #403D38;
+}
+.more-details .card{
+    width: 22.5%;
+    float: left;
+    padding: 0px 15px;
+}
+.more-details .card h4{
+   color: #FFFFFF;
+   font-size: 18px;
+   font-weight: 400;
+   margin-bottom: 25px;
+}
+.card ul li img, span{
+    color: #969696;
+}
+.card .contact-icons{
+    background-image: url(images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.card .contact-icons li img{
+    width: 30px;
+    vertical-align: middle;
+}
+.card .contact-icons li a{
+    text-decoration: none;
+    color: #969696;
+}
+
+.more-details .card p{
+    margin-bottom: 25px;
+    font-family: 'Alegreya Sans';
+    color: #969696;
+}
+.card ul .line-top{
+    border-top: 1px solid rgb(80, 78, 73, 0.5);
+    margin: 15px 0px;
+} 
+.card ul li img{
+    width: 16px;
+}
+
+.more-details .card span{
+    font-family: 'Alegreya Sans';
+    vertical-align: bottom;
+
+}
+/* End more details section */
+
+/* Start footer section */
+.footer{
+    background-color: #353330;
+    padding: 50px 0px 40px;
+}
+.footer div{
+    width: 33%;
+    text-align: center;
+    margin: auto;
+}
+.footer img{
+    width: 80%;
+}
+.footer p{
+    margin: 10px 0;
+}
+.footer ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+.footer ul li img{
+   width: 40px;
+   background-color: #52504d;
+   border-radius: 50%;
+}
+
+
+
+
+/* End footer section */
